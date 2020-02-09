@@ -12,8 +12,12 @@ const theme = createMuiTheme({
     },
     secondary: {
       main: amber.A400,
-      light: amber.A400,
-      dark: amber.A400
+      light: amber[50],
+      dark: amber[900]
+    },
+    background: {
+      default: "#1a237e",
+      paper: indigo[700]
     },
     type: "dark"
   }
