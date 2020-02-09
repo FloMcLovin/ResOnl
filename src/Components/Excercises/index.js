@@ -1,5 +1,4 @@
-import React from "react";
-import { Grid, Paper, Container, Tabs } from "@material-ui/core";
-import Tab from "@material-ui/core/Tabs";
+import Excercises from "./Excercises";
+import Excercises2 from "./Excercises";
 
-export default props => <Paper>Hello</Paper>;
+export { Excercises, Excercises2 };
